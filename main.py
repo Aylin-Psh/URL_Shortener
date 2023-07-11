@@ -11,7 +11,7 @@ mongo_db=MongoClient(connection_string)
 database = mongo_db.UrlShortner
 collection = database.urls
 qr_obj=qr_code()
-base_url="https://psh-urlshort.onrender.com"
+base_url="https://psh-urlshort.onrender.com/"
 url_obj = urls(collection)
 
 class addURL(BaseModel):
